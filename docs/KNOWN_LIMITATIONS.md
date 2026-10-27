@@ -1,6 +1,6 @@
 # الحدود المعروفة / Known limitations
 
-- Windows x64 Beta preview; the installer has no Authenticode publisher certificate. .NET is bundled; media conversion requires separate FFmpeg/FFprobe.
+- Windows x64 Beta preview; the installer has no Authenticode publisher certificate. .NET is bundled; media conversion needs the optional verified media-tools setup or manually selected FFmpeg/FFprobe.
 - Video, audio, still-image profiles and ordinary/AES ZIP are available. PDF/Office, OCR, other archive engines, recording, downloading and disc tools are not integrated.
 - Codec/container and device compatibility apply. Complete multitrack, subtitles, animation, HDR or metadata preservation is not guaranteed.
 - GPU support varies by hardware, driver and encoder. Short checks are not long-run stability or speed benchmarks.

@@ -13,11 +13,11 @@ A local Windows workspace for video, audio, images and ZIP. Prepare every file s
 
 مساحة عمل لتحويل الفيديو والصوت والصور وZIP. اضبط كل ملف لحاله، احفظ المهام، وابدأ الطابور وقت ما تكون جاهز.
 
-Latest preview: **0.9.0 Beta 1**, with a Windows installer and a bilingual Update Center.
+Latest preview: **0.9.1 Beta 1**, with verified media tools setup, display sizing fixes and a bilingual Update Center.
 
-آخر نسخة تجريبية: **0.9.0 Beta 1**، مع مثبّت ومركز تحديثات بالعربية والإنجليزية.
+آخر نسخة تجريبية: **0.9.1 Beta 1**، مع تجهيز محرك الوسائط وإصلاح أبعاد النافذة ومركز تحديثات بالعربية والإنجليزية.
 
-**[↓ Windows installer / تنزيل مثبّت ويندوز](https://github.com/abdqshi/FileTuneX/releases/download/v0.9.0-beta.1/AbdalrahmanAlqashi.FileTuneX-beta-Setup.exe)** · [All files / جميع الملفات](https://github.com/abdqshi/FileTuneX/releases/tag/v0.9.0-beta.1) · [Setup / التشغيل](docs/INSTALL_0.9.md) · [Gallery / المعرض](docs/GALLERY.md) · [For creators / لصنّاع المحتوى](docs/CREATORS.md)
+**[↓ Windows installer / تنزيل مثبّت ويندوز](https://github.com/abdqshi/FileTuneX/releases/download/v0.9.1-beta.1/AbdalrahmanAlqashi.FileTuneX-beta-Setup.exe)** · [All files / جميع الملفات](https://github.com/abdqshi/FileTuneX/releases/tag/v0.9.1-beta.1) · [Setup / التشغيل](docs/INSTALL_0.9.md) · [Gallery / المعرض](docs/GALLERY.md) · [For creators / لصنّاع المحتوى](docs/CREATORS.md)
 
 <table><tr><th>Crystal · العربية</th><th>Midnight · English</th></tr><tr><td><img src="docs/screenshots/app/home-light-ar.jpg" alt="Arabic light interface"></td><td><img src="docs/screenshots/app/home-dark-en.jpg" alt="English dark interface"></td></tr></table>
 
@@ -25,16 +25,17 @@ Latest preview: **0.9.0 Beta 1**, with a Windows installer and a bilingual Updat
 |---|---|
 | Video, audio & images / الوسائط | 18 output profiles; per-file codecs, resize and trimming. |
 | Queue / الطابور | Save tasks first; selection, ordering, cancellation and retry. |
-| Hardware / التسريع | GPU encoder checks and device selection where supported. |
+| Media setup / تجهيز المحرك | Download, verify and activate FFmpeg/FFprobe from Settings. |
+| Hardware / التسريع | Device discovery works without media tools; encoder tests and selection where supported. |
 | ZIP | Create, inspect, verify, extract and optional AES-256 password protection. |
 | File details / معلومات الملف | Structured video/audio/container cards. |
 | Appearance / المظهر | Eight presets, detailed glass controls, reduced motion, Arabic RTL and English. |
 
 <table><tr><td><img src="docs/screenshots/app/workspace-light-ar.jpg" alt="Per-file settings in Arabic"></td><td><img src="docs/screenshots/app/workspace-dark-en.jpg" alt="Per-file settings in English"></td></tr></table>
 
-.NET is included in Windows release packages. ZIP works directly; media conversion needs separately supplied FFmpeg/FFprobe. Hardware support depends on the device, driver and codec. Original input files are preserved. Current packages have no Authenticode publisher signature.
+.NET is included in Windows release packages. ZIP works directly; media conversion offers verified FFmpeg/FFprobe setup from Settings or manual tool selection. Hardware support depends on the device, driver and codec. Original input files are preserved. Current packages have no Authenticode publisher signature.
 
-.NET مرفق. ZIP يعمل مباشرة، وتحويل الوسائط يحتاج FFmpeg وFFprobe منفصلين. دعم التسريع يعتمد على جهازك وتعريفاته. الملفات الأصلية محفوظة. لا توجد شهادة ناشر Windows حاليًا.
+.NET مرفق. ZIP يعمل مباشرة، وتحويل الوسائط يتيح تجهيز FFmpeg وFFprobe من الإعدادات أو اختيارهما يدويًا. دعم التسريع يعتمد على جهازك وتعريفاته. الملفات الأصلية محفوظة. لا توجد شهادة ناشر Windows حاليًا.
 
 ## Updates / التحديثات
 

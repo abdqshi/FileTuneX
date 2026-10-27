@@ -1,11 +1,11 @@
 # Install FileTuneX / تثبيت FileTuneX
 
-[Windows x64 installer](https://github.com/abdqshi/FileTuneX/releases/download/v0.9.0-beta.1/AbdalrahmanAlqashi.FileTuneX-beta-Setup.exe) · [All packages](https://github.com/abdqshi/FileTuneX/releases/tag/v0.9.0-beta.1)
+[Windows x64 installer](https://github.com/abdqshi/FileTuneX/releases/download/v0.9.1-beta.1/AbdalrahmanAlqashi.FileTuneX-beta-Setup.exe) · [All packages](https://github.com/abdqshi/FileTuneX/releases/tag/v0.9.1-beta.1)
 
 ## العربية
 
 1. نزّل المثبّت من الرابط الرسمي، وأغلق نسخ FileTuneX القديمة قبل فتحه. هذه نسخة Beta تجريبية، ولا تحمل شهادة ناشر Windows.
-2. .NET مرفق؛ ZIP يعمل مباشرة. تحويل الوسائط يحتاج FFmpeg وFFprobe منفصلين، وتختار مساريهما من الإعدادات ← المحركات والتشخيص.
+2. .NET مرفق؛ ZIP يعمل مباشرة. لتحويل الوسائط افتح الإعدادات ← المحركات والتشخيص ← تنزيل وتجهيز المحرك. الاختيار اليدوي ما زال متاحًا.
 3. أضف ملفاتك واضبط إعداد كل ملف، ثم احفظ المهام وشغّل الطابور. الملفات الأصلية تبقى دون تعديل.
 4. افتح الإعدادات ← التحديثات. تنزيل التحديث لا يثبته تلقائيًا. إعادة التشغيل تحتاج موافقتك وتحترم المهام الجارية. Beta خيار صريح؛ Stable لن ينزّلها تلقائيًا.
 
@@ -16,7 +16,7 @@
 ## English
 
 1. Download the official installer and close old FileTuneX instances before opening it. This is an opt-in Beta with no Authenticode publisher certificate.
-2. .NET is included; ZIP works directly. Media conversion requires separately supplied FFmpeg/FFprobe; select their executable paths in Settings → Engines and diagnostics.
+2. .NET is included; ZIP works directly. For media conversion, use Settings → Engines and diagnostics → Download and set up. Manual tool selection is retained.
 3. Prepare each file, save tasks, then run the queue. Original inputs are preserved.
 4. Open Settings → Updates. Downloads do not silently install. Restart requires consent and respects active work. Stable excludes Beta; opt into Beta explicitly to follow experimental releases.
 
